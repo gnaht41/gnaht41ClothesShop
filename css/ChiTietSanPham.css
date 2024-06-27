@@ -1,0 +1,23 @@
+.golden-star {
+    color: #ffcc01;
+    font-size: 12px;
+}
+
+.golden-star:hover {
+    opacity: 0.5;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+.category-price span {
+    font-size: 25px;
+}
+
+.category-color {
+    font-size: 14px;
+}
+
+.shop-detail-color-container a:hover {
+    opacity: 0.8;
+    cursor: pointer;
+}

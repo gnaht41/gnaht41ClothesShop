@@ -1,0 +1,88 @@
+.box img {
+    display: block;
+    max-width: 100%;
+    height: auto;
+}
+
+.box img:hover {
+    transform: scale(1.05);
+    transition: 0.5s;
+    cursor: pointer;
+    opacity: 0.8;
+}
+
+.card-text {
+    color: red;
+    font-weight: 600;
+}
+
+.card-img-top:hover {
+    opacity: 0.6;
+    cursor: pointer;
+}
+
+.badge-new {
+    position: absolute;
+    top: 10px;
+    /* Điều chỉnh vị trí theo chiều dọc */
+    left: 10px;
+    /* Điều chỉnh vị trí theo chiều ngang */
+    background-color: #f00;
+    /* Màu nền của badge */
+    color: #fff;
+    /* Màu chữ của badge */
+    padding: 5px 10px;
+    /* Khoảng cách padding bên trong badge */
+    font-weight: bold;
+    /* Đậm chữ */
+    z-index: 1;
+    /* Độ sâu của phần tử */
+}
+
+.badge-new-over {
+    position: absolute;
+    top: 0px;
+    /* Điều chỉnh vị trí theo chiều dọc */
+    left: 10px;
+    /* Điều chỉnh vị trí theo chiều ngang */
+    background-color: rgba(255, 0, 0, 0.8);
+    /* Màu nền của badge */
+    color: #fff;
+    /* Màu chữ của badge */
+    padding: 5px 10px;
+    /* Khoảng cách padding bên trong badge */
+    font-weight: bold;
+    /* Đậm chữ */
+    z-index: 1;
+    /* Độ sâu của phần tử */
+    border-radius: 0 0px 10px 10px;
+}
+
+#backtotop {
+    border-radius: 50%;
+    line-height: 48px;
+    background-color: #333;
+    color: grey;
+    display: block;
+    position: fixed;
+    bottom: 20px;
+    text-align: center;
+    width: 50px;
+    right: 10px;
+    opacity: 0;
+    transition: all 0.4s ease 0s;
+    height: 50px;
+    z-index: 997;
+    cursor: pointer;
+    padding-top: 1px;
+    padding-left: 1px;
+}
+
+#backtotop:hover {
+    background-color: #f00;
+    color: white;
+}
+
+#backtotop.active {
+    opacity: 1;
+}

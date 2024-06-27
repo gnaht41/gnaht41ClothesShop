@@ -1,0 +1,109 @@
+.tabs {
+    background-color: #f8f8f8;
+    height: 40px;
+}
+
+.tabs-list a {
+    text-decoration: none;
+    color: #292929;
+}
+
+.tabs-title {
+    font-weight: 500;
+}
+
+.filter {
+    padding-left: 10px;
+    height: 25px;
+    padding-bottom: 5px;
+}
+
+.filter-title {
+    color: #334354;
+    font-weight: 700;
+    cursor: pointer;
+}
+
+
+.page-title {
+    border-bottom: 1px dashed #CCC;
+    padding-bottom: 10px;
+    border-bottom-width: 2px;
+}
+
+.product-suggest a {
+    text-decoration: none;
+    color: #292929;
+}
+
+.product-price {
+    color: red;
+}
+
+.product-price em {
+    color: #292929;
+    text-decoration: line-through;
+}
+
+.split {
+    width: 150px;
+    border-bottom: 1px solid #cccccc;
+    height: 1px;
+    margin-top: 20px;
+}
+
+.split-end {
+    border-bottom: 1px solid #cccccc;
+    height: 1px;
+    margin-top: 20px;
+    width: 100%;
+}
+
+.far {
+    font-size: 25px;
+}
+
+.pagination {
+    background-color: #ffff;
+
+}
+
+.pagination li a {
+    color: #292929;
+}
+
+.pagination li a:hover {
+    background-color: red;
+    color: white;
+}
+
+.product-img {
+    width: 100px;
+}
+
+.product-img:hover {
+    opacity: 0.7;
+}
+
+.product-suggest a {
+    font-weight: 500;
+}
+
+.product-suggest img {
+    border: 2px solid grey;
+}
+
+.fa-thumbs-up:hover {
+    opacity: 0.5;
+    cursor: pointer;
+}
+
+.fa-share-square:hover {
+    opacity: 0.5;
+    cursor: pointer;
+}
+
+.fa-heart:hover {
+    opacity: 0.5;
+    cursor: pointer;
+}

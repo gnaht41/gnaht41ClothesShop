@@ -1,0 +1,49 @@
+.form-title {
+    padding-bottom: 10px;
+    width: 850px;
+    display: inline-block;
+    margin-bottom: 20px;
+}
+
+.form-info {
+    margin-left: 100px;
+}
+
+.choose {
+    margin-left: 4px;
+}
+
+/* .ghiChu {
+    margin-left: 20px;
+    width: 530px;
+} */
+
+.aside-left {
+    margin-top: 50px;
+    height: 700px;
+    border-right: 1px solid;
+}
+
+.aside-right {
+    height: 700px;
+}
+
+.aside-heading {
+    border-bottom: 1px solid #e5e5e5;
+
+}
+
+.form-check label {
+    display: block;
+    border: 1px solid #f0f0f0;
+    padding: 10px;
+    border-radius: 10px;
+    margin-bottom: 10px;
+    cursor: pointer;
+}
+
+
+.form-check input:checked+label {
+    background-color: #f0f0f0;
+    /* Màu nền khi được chọn */
+}

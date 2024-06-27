@@ -1,0 +1,528 @@
+body {
+    overflow-x: hidden;
+}
+
+nav.navbar.navbar-expand-sm.p-0 {
+    background-color: #ffffff;
+}
+
+.nav-logo {
+    cursor: pointer;
+}
+
+.nav-cart {
+    margin-left: 20px;
+    margin-right: 45px;
+}
+
+.nav-item a {
+    color: #334354;
+}
+
+.nav-cart-count {
+    width: 18px;
+    height: 18px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: -20px;
+    margin-left: -55px;
+    margin-right: 50px;
+    border-radius: 20px;
+    font-size: 12px;
+    background-color: red;
+    color: white;
+}
+
+/* CSS tùy chỉnh cho hiệu ứng hover của input */
+input.form-control:hover {
+    border-color: #124076;
+    /* Màu viền khi hover */
+    box-shadow: 0 0 5px #124076;
+    /* Đổ bóng khi hover */
+}
+
+/* Loại bỏ viền xanh khi input được focus */
+input.form-control:focus {
+    border-color: #124076;
+    /* Màu viền khi focus */
+    box-shadow: 0 0 5px #124076;
+    /* Đổ bóng khi focus */
+    outline: none;
+    /* Loại bỏ outline mặc định */
+}
+
+.nav-cart {
+    cursor: pointer;
+}
+
+.policy-main {
+    background: #fafafa !important;
+}
+
+.policy-item {
+    padding: 20px;
+}
+
+.policy-title {
+    padding-bottom: 14px;
+    border-bottom: 1px solid #dedede;
+}
+
+.policy-head {
+    font-size: 18px;
+}
+
+.policy-img {
+    margin-bottom: 10px;
+    font-size: 25px;
+}
+
+.policy-img:hover {
+    cursor: pointer;
+    opacity: 0.5;
+}
+
+.policy-text {
+    font-size: 16px;
+}
+
+.footer {
+    background-color: #1e1e1e;
+}
+
+.footer-logo {
+    filter: brightness(0) invert(1);
+}
+
+.list-footer {
+    margin-top: 20px;
+}
+
+.list-footer li {
+    list-style: none;
+}
+
+.footer-icon {
+    filter: brightness(0) invert(1);
+    margin-right: 5px;
+    padding: 5px;
+}
+
+.list-footer-contact li {
+    list-style: none;
+}
+
+.fas {
+    margin-right: 5px;
+}
+
+.footer-list-icon {
+    margin-right: 10px;
+}
+
+.footer-map {
+    max-width: 100%;
+}
+
+.footer a {
+    color: #bbb;
+    text-decoration: none;
+}
+
+.footer a:hover {
+    color: #b31f2a;
+    transition: .4s;
+    text-decoration: none;
+}
+
+.newsletter input {
+    height: 36px;
+    background: #343434;
+    border: none;
+    color: #ccc;
+    padding: 0 20px;
+    line-height: 36px;
+    width: 300px;
+    border-radius: 3px 0 0 3px;
+    outline: 0;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    padding-right: 86px;
+}
+
+.newsletter button {
+    border-radius: 0 5px 5px 0px;
+    font-weight: 600;
+    text-transform: uppercase;
+    color: #fff;
+    border: none;
+    margin-bottom: 3px;
+}
+
+.wrap {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+.main {
+    flex: 1;
+}
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+    .card {
+        margin-left: 0px !important;
+    }
+
+    .vendor {
+        padding: 0px !important;
+    }
+
+    .nav-hidden {
+        margin-bottom: 20px;
+    }
+
+    .nav-item {
+        margin-bottom: 10px;
+    }
+
+    .nav-cart {
+        display: none;
+    }
+
+    .navbar-toggler {
+        margin-left: 125px;
+    }
+
+    .nav-cart-count {
+        display: none;
+    }
+
+    .page-title h4 {
+        font-size: 14px;
+    }
+
+    .sort {
+        display: none;
+    }
+
+    .aside {
+        margin-top: 50px;
+        margin-left: 20px;
+    }
+
+    .vote {
+        display: none;
+    }
+
+    .split-end {
+        width: 100%;
+    }
+
+    .filter-title {
+        font-size: 14px;
+    }
+
+    .page-change {
+        display: flex;
+        justify-content: center;
+        padding-right: 100px;
+    }
+
+    .form-main {
+        padding: 0px;
+    }
+
+    .form-title {
+        width: 300px !important;
+        margin-top: 20px;
+    }
+
+    .form-main label {
+        font-size: 12px;
+    }
+
+    .aside-left {
+        padding-left: 0px;
+    }
+
+    #phuongXa {
+        margin-left: 20px;
+    }
+
+    #soNha {
+        margin-left: 20px;
+    }
+
+    #ghiChu {
+        padding-left: 0px;
+        width: 150px !important;
+        margin-left: 0px;
+    }
+
+    .table {
+        padding: 100px !important;
+        padding-left: 0px !important;
+    }
+
+    .aside-right {
+        padding-left: 30px !important;
+    }
+
+    .category-img {
+        width: 400px;
+        padding: 30px;
+        margin-left: 30px;
+    }
+
+    .category-name {
+        padding-right: 20px;
+    }
+
+    .category-box {
+        margin-left: 20px;
+    }
+
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+    .nav-cart-count {
+        margin-top: -20px;
+        margin-left: -54px;
+        margin-right: 50px;
+    }
+
+    .nav-item a {
+        font-weight: 600;
+        font-size: 12px;
+    }
+
+    .split-end {
+        width: 100%;
+    }
+
+    .page-change {
+        display: flex;
+        justify-content: center;
+    }
+
+    .pagination {
+        display: flex;
+        justify-content: flex-end;
+        padding-right: 50px;
+    }
+
+    .card {
+        margin-right: 20px;
+    }
+
+    .page-change {
+        display: flex;
+        justify-content: center;
+        padding-right: 100px;
+    }
+
+    .thanhToan {
+        display: none;
+    }
+
+}
+
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+    .nav-cart-count {
+        margin-top: -19px;
+        margin-left: -52px;
+        margin-right: 50px;
+        width: 22px;
+    }
+
+    .nav-item a {
+        font-weight: 600;
+        font-size: 12px;
+    }
+
+    input.form-control {
+        margin-left: 20px;
+    }
+
+    .split-end {
+        width: 100%;
+    }
+
+    .page-change {
+        display: flex;
+        justify-content: center;
+    }
+
+    .pagination {
+        margin-left: 100px;
+    }
+
+    .aside {
+        margin-left: 50px;
+    }
+
+    .thanhToan {
+        display: none;
+    }
+
+    .category-img {
+        width: 500px;
+        padding: 20px;
+        margin-left: 150px;
+    }
+
+    .category-box {
+        margin: 20px;
+    }
+
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+    .nav-item a {
+        font-weight: 600;
+        font-size: 14px;
+    }
+
+    .split-end {
+        width: 100%;
+    }
+
+    .page-change {
+        display: flex;
+        justify-content: center;
+        padding-right: 60px;
+    }
+
+    .pagination {
+        padding-right: 0;
+    }
+
+    .aside {
+        margin-left: 50px;
+    }
+
+    .thanhToan {
+        display: none;
+    }
+
+    .category-img {
+        padding-left: 50px;
+    }
+
+    .category-box {
+        margin-left: 20px;
+    }
+
+}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+    .aside {
+        margin-left: 0px;
+    }
+
+    .aside-heading {
+        display: inline-block;
+        width: 600px;
+    }
+
+    .thanhToan {
+        display: none;
+    }
+
+    .category-img {
+        width: 100%;
+        padding: 120px;
+        margin-left: 50px;
+    }
+
+    .category-box {
+        margin: 0px;
+        padding: 20px;
+        margin-top: 150px;
+    }
+
+    .shop-detail-color-container {
+        padding-right: 100px;
+    }
+
+}
+
+/* Áp dụng cho màn hình có độ rộng từ 360px đến 800px */
+@media (min-width: 360px) and (max-width: 800px) {
+    .card {
+        margin: 0 !important;
+    }
+
+    .vendor {
+        padding: 0 !important;
+    }
+
+    .product-suggest {
+        margin-right: 20px;
+    }
+
+    .newsletter input {
+        width: 250px;
+    }
+
+    .split-end {
+        width: 100%;
+    }
+
+    .split {
+        width: 100px !important;
+    }
+
+    .page-change {
+        padding-right: 150px;
+    }
+
+    .product-suggest {
+        margin-right: 0px;
+        display: flex;
+        flex-direction: row;
+    }
+
+    .form-info {
+        margin-left: 30px !important;
+    }
+
+    #ghiChu {
+        width: 150px !important;
+    }
+
+    .table {
+        padding: 100px !important;
+        padding-left: 0px !important;
+    }
+
+    .aside-right {
+        padding-left: 18px !important;
+    }
+
+    .category-img {
+        padding: 30px;
+        margin-top: 50px;
+        padding-right: 100px;
+    }
+
+    .category-box {
+        padding-right: 20px;
+    }
+
+    .tabs-list {
+        padding-right: 20px;
+    }
+
+    .shop-detail-color-container {
+        padding-right: 10px;
+    }
+}
